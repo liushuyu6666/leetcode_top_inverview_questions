@@ -1,10 +1,10 @@
 #### java data structure used
-1.  HashSet: Contain_Duplicate.java
+*1.  HashSet: Contain_Duplicate.java
 
 #### algorithm improvements
-1.  First_unique_character_in_string:
-1)  don't find the min of the hashmap, try to scan the String again.
-2)  don't use the hashmap since the string only contains lowercase english letters.
+* 1.  First_unique_character_in_string:
+  * 1)  don't find the min of the hashmap, try to scan the String again.
+  * 2)  don't use the hashmap since the string only contains lowercase english letters.
 
 
 #### take care:
