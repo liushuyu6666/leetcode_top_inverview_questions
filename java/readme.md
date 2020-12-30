@@ -1,8 +1,19 @@
 #### java data structure used
-1.  HashSet: Contain_Duplicate.java 
+1.  HashSet: Contain_Duplicate.java
+
+#### algorithm improvements
+1.  First_unique_character_in_string:
+1)  don't find the min of the hashmap, try to scan the String again.
+2)  don't use the hashmap since the string only contains lowercase english letters.
 
 
 #### take care:
 1.  First_unique_character_in_string:
 1)  check if index == -1 before using charAt(index).
 2)  check if input String s.length() < 1 to avoid s = "".
+3)  when use letter[26] to represent the frequency of letter appears in the String, the index of letter should be c-'a'.
+
+2.  Reverse Integer:
+1)  the max and min range of integer respectively.
+2)  check before update reserve and remain.
+3) 
