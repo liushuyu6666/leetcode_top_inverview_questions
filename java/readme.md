@@ -16,4 +16,12 @@
 2.  Reverse Integer:
 1)  the max and min range of integer respectively.
 2)  check before update reserve and remain.
-3) 
+
+
+3.  Valid Palindrome:
+1)  when facing the String, please check if index beyond the range of the string.
+
+
+#### summary
+1.  For String
+1)  letter[26] or character[256] need to use when concerning about frequency.
