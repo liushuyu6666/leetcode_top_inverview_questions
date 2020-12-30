@@ -8,21 +8,23 @@ public class First_unique_character_in_string {
     public int firstUniqChar(String s){
         // !! avoid s = "";
         if(s.length() < 1) return -1;
-        Map<Character, Integer> map = new HashMap<>();
+
         char c;
+        int[] letter = new int[26]; // record the freq of each letter.
+        for(int i = 0; i < 26; i++) letter[i] = 0;
+
         for(int i = 0; i < s.length(); i++){
             c = s.charAt(i);
-            if(!map.containsKey(c)){
-                map.put(c, i);
-            }
-            else{
-                map.put(c, Integer.MAX_VALUE);
-            }
+            // !! should be c - 'a' not c
+            letter[c -'a']++;
         }
 
-        int minIndex = Collections.min(map.values());
-        if(minIndex == Integer.MAX_VALUE) return -1;
-        else return minIndex;
+        for(int i = 0; i < s.length(); i++){
+            c = s.charAt(i);
+            if(letter[c -'a'] == 1) return i;
+        }
+
+        return -1;
     }
 
     public static void main(String args[]){
