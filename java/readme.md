@@ -8,20 +8,20 @@
 
 
 #### take care:
-1.  First_unique_character_in_string:
-1)  check if index == -1 before using charAt(index).
-2)  check if input String s.length() < 1 to avoid s = "".
-3)  when use letter[26] to represent the frequency of letter appears in the String, the index of letter should be c-'a'.
+1. First_unique_character_in_string:
+    -check if index == -1 before using charAt(index).
+    -check if input String s.length() < 1 to avoid s = "".
+    -when use letter[26] to represent the frequency of letter appears in the String, the index of letter should be c-'a'.
 
-2.  Reverse Integer:
-1)  the max and min range of integer respectively.
-2)  check before update reserve and remain.
+2. Reverse Integer:
+    -the max and min range of integer respectively.
+    -check before update reserve and remain.
 
 
-3.  Valid Palindrome:
-1)  when facing the String, please check if index beyond the range of the string.
+3. Valid Palindrome:
+   -when facing the String, please check if index beyond the range of the string.
 
 
 #### summary
-1.  For String
-1)  letter[26] or character[256] need to use when concerning about frequency.
+1. For String
+    -letter[26] or character[256] need to use when concerning about frequency.
