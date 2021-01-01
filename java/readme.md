@@ -6,6 +6,19 @@
    - don't find the min of the hashmap, try to scan the String again.
    - don't use the hashmap since the string only contains lowercase english letters.
 
+2. String_to_integer:
+    - the only possible position that the symbol will appear is the first non-zero character, if not, any '+' or '-' after that position will be regard as normal character. So, we need to test the symbol at that place, don't combine the test of symbol and digit together, which will complicate the testing.
+
+
+#### auxiliary function
+1. String:
+    - Character.isDigit(c)
+    - Character.isLetter(c)
+
+2. Integer:
+    - Integer.MAX_VALUE
+    - Integer.MIN_VALUE
+
 
 #### take care:
 1. First_unique_character_in_string:
