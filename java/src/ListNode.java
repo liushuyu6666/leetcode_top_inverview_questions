@@ -2,12 +2,11 @@ public class ListNode {
     int val;
     ListNode next;
 
+    ListNode() {}
     ListNode(int x) {
-        val = x;
-        next = null;
+        this.val = x;
     }
-    ListNode(int x, ListNode n){
-        val = x;
-        next = n;
+    ListNode(int val, ListNode next) {
+        this.val = val; this.next = next;
     }
 }
