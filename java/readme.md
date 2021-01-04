@@ -40,7 +40,13 @@
 3. Valid Palindrome:
    - when facing the String, please check if index beyond the range of the string.
 
+4. Remove Nth Node From End:
+    - when ListNode curr points to the node, we can't end the list by assignning curr = null. The correct is to make prev.next = null. 
+
 
 #### summary
 1. For String
     - letter[26] or character[256] need to use when concerning about frequency.
+
+2. For ListNode:
+    - remove one node, Delete_node_in_a_linked_list.java
