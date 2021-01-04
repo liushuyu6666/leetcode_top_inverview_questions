@@ -9,6 +9,9 @@
    - don't find the min of the hashmap, try to scan the String again.
    - don't use the hashmap since the string only contains lowercase english letters.
 
+2. Delete_node_in_a_linked_list:
+    - move val and node.next = node.next.next
+
 2. String_to_integer:
     - the only possible position that the symbol will appear is the first non-zero character, if not, any '+' or '-' after that position will be regard as normal character. So, we need to test the symbol at that place, don't combine the test of symbol and digit together, which will complicate the testing.
 
