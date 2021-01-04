@@ -1,6 +1,9 @@
 #### java data structure used
 1.  HashSet: Contain_Duplicate.java
 
+2.  StringBuilder: Count_and_say.java
+     - toString()
+
 #### algorithm improvements
 1. First_unique_character_in_string:
    - don't find the min of the hashmap, try to scan the String again.
