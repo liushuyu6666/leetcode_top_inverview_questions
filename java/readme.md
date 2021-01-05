@@ -43,6 +43,15 @@
 4. Remove Nth Node From End:
     - when ListNode curr points to the node, we can't end the list by assignning curr = null. The correct is to make prev.next = null. 
 
+5. TreeNode.java:
+    - return an anonymous array: return new int[] {1, 2, 3};
+    - if(i < nums.length && nums[i] != null) then in the else if, we still need to check if i < nums.length:
+    if(i < nums.length && nums[i] != null){
+          statement1;
+    }
+    else if(i < nums.length && nums[i] == null){
+          statement2;
+    }
 
 #### summary
 1. For String
