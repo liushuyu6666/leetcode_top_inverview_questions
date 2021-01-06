@@ -53,6 +53,8 @@
           statement2;
     }
 
+6. When handle with TreeNode, sometimes need to add null to the Queue even if the root.left or root.right are null.
+
 #### summary
 1. For String
     - letter[26] or character[256] need to use when concerning about frequency.
