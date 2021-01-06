@@ -61,3 +61,6 @@
 
 2. For ListNode:
     - remove one node, Delete_node_in_a_linked_list.java
+
+3. Tree
+    - the null child nodes sometime need to be placeholder, so don't forget to put them in the Queue. For example, Maximum_depth_of_binary_tree.java and Validate_binary_search_tree
