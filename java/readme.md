@@ -12,8 +12,11 @@
 2. Delete_node_in_a_linked_list:
     - move val and node.next = node.next.next
 
-2. String_to_integer:
+3. String_to_integer:
     - the only possible position that the symbol will appear is the first non-zero character, if not, any '+' or '-' after that position will be regard as normal character. So, we need to test the symbol at that place, don't combine the test of symbol and digit together, which will complicate the testing.
+
+4. Convert_sorted_array_to_binary_tree:
+    - find the middle value, double pointers or left + (end - left + 1) / 2
 
 
 #### auxiliary function
@@ -54,6 +57,10 @@
     }
 
 6. When handle with TreeNode, sometimes need to add null to the Queue even if the root.left or root.right are null.
+
+#### have no thread
+1. Best_time_to_buy_and_sell_stock.java:
+    - dynamic programming
 
 #### summary
 1. For String
