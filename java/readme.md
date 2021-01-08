@@ -71,3 +71,9 @@
 
 3. Tree
     - the null child nodes sometime need to be placeholder, so don't forget to put them in the Queue. For example, Maximum_depth_of_binary_tree.java and Validate_binary_search_tree
+
+4. Math relavant, power
+    - base conversion, use Integer.toString(num, base);
+
+5. Regex
+    - string.matches("")
