@@ -39,6 +39,6 @@ public class Shuffle_an_array {
 
     public static void main(String args[]){
         Shuffle_an_array s = new Shuffle_an_array(new int[] {1, 2, 3, 4, 5});
-        
+
     }
 }
