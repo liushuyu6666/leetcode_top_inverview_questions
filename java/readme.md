@@ -20,11 +20,13 @@
 
 
 #### bit manipulation
-1. n & (n - 1): Number_of_1_bits
+1. n & (n - 1): Number_of_1_bits.java
     - flip the least-significant 1-bit of the number to 0
 
 `       n: ... 1 1 0 1 0 0`  
 `   n-1:  ... 1 1 0 0 1 1`
+
+2. bit integer is not 32-bits representation in java: Reverse_bits.java
 
 
 #### auxiliary function
