@@ -23,8 +23,8 @@
 1. n & (n - 1): Number_of_1_bits
     - flip the least-significant 1-bit of the number to 0
 
-      > n: ... 1 1 0 1 0 0 <\br>
-      n-1:  ... 1 1 0 0 1 1
+`       n: ... 1 1 0 1 0 0`
+`   n-1:  ... 1 1 0 0 1 1`
 
 
 #### auxiliary function
