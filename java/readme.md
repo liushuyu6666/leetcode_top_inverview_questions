@@ -91,8 +91,8 @@
 
 ## category by question
 1. Sum3.java
-### structure used
+### structure
 1. Set<List<Integer>> set = new HashSet<>(): try to avid adundant values
 2. Arrays.sort()
 3. Arrays.asList(a, b, c): don't need to use add
-4. ArrayList<>(set): type conversion
+4. convert set to array: new ArrayList<>(set)
